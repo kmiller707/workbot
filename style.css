@@ -1,0 +1,75 @@
+body {
+    background-color: #DCDCDC;
+  }
+h1 {
+    color:#00008b;
+    font-family: Boldstrom;
+    font-size: 500%;
+    text-align: center
+}
+
+hr {
+    width:50%
+}
+
+p {
+    color: #00008b;
+}
+button {
+    background-color: #DCDCDC; 
+    border: none;
+    color:#00008b;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  button:hover {
+    background-color: #00008b;
+    color: white;
+  }
+
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .topbuttons {
+      width: 100%
+      margin:5px;
+  }
+
+  .bottombuttons {
+      width: 100%
+      margin:5px;
+    }
+      
+    .divider{
+        width:5px;
+        height:auto;
+        display:inline-block;
+    }
+
